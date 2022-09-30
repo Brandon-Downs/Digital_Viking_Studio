@@ -1,0 +1,54 @@
+/* Main Navigation */
+#main-nav {
+	.menu {
+		padding: 10px;
+		border-top:1px solid #eee;
+		border-bottom:1px solid #eee;
+		margin:0;
+		// background:blue;
+
+		li {
+			float:left;
+			position:relative;
+			margin: 0 22px 0 0;
+			a {
+				display:block;
+				font-size:15px;
+                line-height: 21px;
+                font-weight:normal;
+				padding:5px 15px;
+				text-align:center;				
+                // color:#FFF;
+
+			}
+		}
+
+		.sub-menu {
+			position: absolute;
+			background:#FFF;
+			padding: 10px;
+			top: 20px;
+			// border-bottom:1px solid #DDD;
+			// border-left:1px solid #DDD;
+			// border-right:1px solid #DDD;
+			border-radius: 0 5px 5px 5px;
+			left: -9999px;
+			z-index: 2;
+
+			li {
+				display:block;
+				float:none;				
+				a{
+					text-align:left;
+					width:100px;
+					text-transform:none;
+					padding: 7px 15px 7px;
+				}
+			}
+		}
+
+		ul li:hover ul {
+			left: 0px !important;
+		}
+	}
+}

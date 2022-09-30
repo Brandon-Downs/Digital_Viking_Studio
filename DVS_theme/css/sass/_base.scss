@@ -1,0 +1,525 @@
+//You can create variables here for use in other css files
+
+//Font colors
+$generalFont-color: #6f6f6f;
+$heading-color: #444;
+$post-meta-color: #999;
+
+//Font colors
+$generalFont-color: #6f6f6f;
+$heading-color: #444;
+$post-meta-color: #999;
+
+//Link & Button colors
+$link-color: #ba3b71;
+$link-hover-color: #e63533;
+
+$default-button-bg: #ba3b71;
+$default-button-bg-hover: #e63533;
+$default-button-color: #e63533;
+$default-button-color-hover: #fff;
+
+//Alt Blue Set
+$spaceBlue:#151E3F;
+$azureBlue: #3185FC;
+$stpatBlue: #19297C;
+
+//Responsive breakpoints
+$mobile: "only screen and (max-width: 600px)";
+$tablet: "only screen and (max-width: 800px)";
+$laptop: "only screen and (max-width: 1020px)";
+$desktop: "only screen and (max-width: 1210px)";
+
+//Mixins (Work like functions)
+	@mixin clearfix {
+		&:before,
+		&:after {
+		    content: "";
+		    display: table;
+		}
+
+		&:after {
+		    clear: both;
+		}
+
+		/* For IE 6/7 (trigger hasLayout) */
+		*zoom: 1;
+	}
+
+	@mixin border-box {
+		-webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+	@mixin transition($property) {
+		-webkit-transition: $property .35s;
+	    -moz-transition: $property .35s;
+	    transition: $property .35s;
+	}
+
+	@mixin border-radius($size) {
+		-moz-border-radius: $size;
+		-khtml-border-radius: $size;
+		-webkit-border-radius: $size;
+		border-radius: $size;
+	}
+	//Example 
+	//@include border-radius(15px);
+
+	@mixin column($size) {
+		grid-column: span $size;
+		margin-bottom: 20px;
+		@media #{$tablet} {
+			grid-column: span 12;
+		}
+	}
+
+	@mixin calc($property, $expression) {
+		#{$property}: -moz-calc(#{$expression});
+		#{$property}: -webkit-calc(#{$expression});
+		#{$property}: -o-calc(#{$expression});
+		#{$property}: calc(#{$expression});
+	}
+
+	@mixin transform($transforms) {
+		-webkit-transform: $transforms;
+		-moz-transform: $transforms;
+		-ms-transform: $transforms;
+		transform: $transforms;
+	}
+
+	@mixin translate ($x, $y) {
+		@include transform(translate($x, $y));
+	}
+/******************************************** HELPER CLASSES ************/
+.ir {
+	display:block;
+	text-indent:-999em;
+	overflow:hidden;
+	background-repeat: no-repeat;
+} /* for image replacement */
+
+.hidden {
+	display:none;
+	visibility:hidden;
+}  /* Hide for both screenreaders and browsers */
+
+.visuallyhidden {
+	position:absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+} /* Hide only visually - available for screenreaders */
+
+.invisible {
+	visibility: hidden;
+} /* Hide visually and from screenreaders, but maintain layout */
+
+.clear {
+	clear: both;
+	display: block;
+}
+
+.cf {
+    @include clearfix; //Defined in variables.scss
+}
+
+small, .small, .meta, .postMeta {
+	font-size: 11px;
+	line-height:13px;
+	//margin-bottom:4px;
+}
+.postMeta {
+	color: $post-meta-color;
+}
+
+.leftFloat {
+	float: left;
+}
+.rightFloat {
+	float: right;
+}
+
+/********************************************************** FONTS ************/
+html {
+	text-align: center;
+}
+html div{
+	box-sizing:border-box;
+}
+
+body {
+	text-align: left;
+	max-width: 100%;
+    overflow: auto;
+}
+.rgba {
+	h1, #logo, h2, h3, h4, h5, h6 {
+		//text-shadow: 0 1px 0 rgba(255,255,255,0.95);
+	}
+}
+h1, .h1 {
+	margin: 0 0 25px 0;
+}
+h2, .h2 {
+	margin: 0 0 25px 0;
+} 
+h3, .h3 {
+	margin: 0 0 25px 0;
+}
+h4, .h4 {
+	margin: 0 0 20px 0;
+} 
+h5, .h5 {
+	margin: 0 0 20px 0;
+} 
+h6, .h6 {
+	margin: 0 0 20px 0;
+} 
+header {
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 3px;
+	}
+}
+
+article {
+	header {
+		margin-bottom: 20px;
+	}
+}
+/* elementor fixes for lightbox easy fancybox etc */
+.elementor-slideshow__footer, .elementor-slideshow__header{
+    box-sizing: border-box;
+}
+
+/* Main Content */
+#main-content {
+	blockquote {
+		font-style: italic;
+		font-family: cambria, georgia, times, serif;
+	}
+}
+.paging {
+	text-align:center;
+	.prev, .next {
+		a {
+			/* Dark Themes color: #fff; */
+		}
+	}
+	.prev {
+		a {			
+			margin:0 auto;
+			display: inline-block;
+		    padding: 7px 27px;
+			border:1px solid #555;
+			border-radius:3px;
+			text-align:center;
+		}
+	}
+	.next {
+		float:left;
+		a {
+			
+		}
+	}
+}
+
+/********************************************************* LAYOUT ************/
+html {
+	height: 100%;
+	
+	/* 
+		Use this if the site has width 100% to prevent the background becoming smaller than the main container. 
+		Change 980px to the width of your main container 
+	
+		min-width: 1160px; 
+	*/ 
+}
+
+body {
+	/*height:100%;*/
+	position: relative;
+	background: #fff;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1360px;
+	margin: 0 auto;    
+	position: relative;
+}
+article {
+	ul, 
+	ol {
+		position:relative;
+		margin-left:45px;
+		padding-right: 25px; /*necessary to ensure content fits in page*/
+		margin-bottom:25px;
+		li {
+			margin-bottom:5px;
+		}
+	}
+}
+
+.lineBreak{
+	padding-top:15px;
+	margin-bottom:15px;
+	border-bottom:1px solid #ddd;
+}
+
+/********** IMAGES ************/
+.wp-post-image, img.alignright, img.alignleft, img.aligncenter {
+	//background: $color-white;
+	//border: 1px solid #eee;
+	max-width: 100%;
+	height:auto;
+}
+article iframe{
+	max-width:100%;
+	// height:auto;
+}
+
+.alignleft {
+	float: left;
+	clear: left;
+	margin: 0 20px 20px 0;
+}
+
+.alignright {
+	float: right;
+	clear: right;
+	margin: 0 0 20px 20px;
+}
+
+.aligncenter {
+	margin: 15px auto;
+	display: block;
+}
+.gallery {
+	.gallery-item{
+		padding: 5px;
+		box-sizing:border-box;
+		margin-top:0;
+		img{
+			max-width: 100%;
+			border:none !important;
+			height: auto;
+			border-radius: 3px;
+		}		
+	}
+}
+
+div.wp-caption {
+	text-align: center;
+	background: none;
+	border: 1px solid #eee;
+	max-width:100%;
+	box-sizing:border-box;
+	// outline: 4px solid #0d1015;
+	padding: 0px !important;
+	text-align: center !important;
+	// -moz-border-radius: 3px;
+	// -khtml-border-radius: 3px;
+	// -webkit-border-radius: 3px;
+	// border-radius: 3px;
+	margin-bottom:20px;
+	p.wp-caption-text {
+		margin-bottom: 3px !important;
+	    padding: 0 6px 4px !important;
+	    clear: both;
+	    font-size: 13px;
+	    line-height: 16px;
+	}
+	img {
+		margin: 0;
+	    box-sizing: border-box;
+	    padding: 5px 5px 0;
+		outline: 0;
+		border: 0;
+	}
+}
+
+/*************************************************************** LINKS & BUTTONS **********/
+a {
+	color: $link-color;
+	text-decoration: none;
+	// font-weight: bold;
+	
+	&:hover, 
+	&:focus {
+		color: $link-hover-color;
+		// text-decoration: none;
+	}
+}
+
+/**************************************************************** Header */
+
+#header {
+	padding: 0 5px;
+	margin-bottom: 20px;
+
+	.contact {
+		float:right;
+		margin:0 20px 0;
+	}
+}
+
+#logo {
+	float:left;
+	margin:20px 20px 20px 0px;
+	a {
+		display:block;
+		padding:4px; 
+		position:relative;
+		img {
+			display: block;
+			max-width:175px;
+			height:auto;
+		}
+	}
+}
+
+
+/********************************************* Main Content */
+#main {
+	clear: both;
+	margin-bottom: 20px;
+	
+	#main-content {
+		
+		margin-bottom:40px;
+
+		&.fullWidth {
+			
+			width: 100%;
+			max-width: 790px;
+    		margin: 0 auto 40px;
+		}
+		blockquote {
+			margin: 0 2.5em 1.25em 2.5em;
+			border: 1px solid #eee;
+			background: #f6f6f6;
+			padding: 1.19em 1.25em 0;
+		}
+	}
+}
+
+//Blog Posts
+.blog {
+	.post {
+		margin: 0 0 25px;
+		padding: 0 0 25px;
+		border-bottom: 1px solid #eee;
+
+		&:last-child{
+			border-bottom: none;
+		}
+
+		h2 {
+			margin: 0 0 7px; 
+		}
+
+		.postMeta {
+			margin: 0 0 12px;
+		}
+	}
+}
+
+/****************************************************** WIDGETS ************/
+.widget {
+	margin: 0 0 30px 0;
+
+	&:last-child{
+		margin-bottom:0;
+	}
+
+	&.widget_search {
+		overflow: hidden;
+		zoom: 1;
+		
+		input#s {
+			float: left;
+			width: 50%;
+		}
+
+		#searchsubmit {
+			font-size: 0.875em;
+			padding: 0 1em;
+			border: 0;
+			margin: 1px 0 0 0;
+			line-height: 2.29em;
+		}
+
+		label {
+			display: none;
+		}
+	}
+
+	&.widget_categories ul, 
+	&.widget_archive ul, 
+	&.widget_links ul, 
+	&.widget_recent_entries ul, 
+	&.widget_recent_comments ul, 
+	&.widget_meta ul, 
+	&.widget_pages ul, 
+	&.widget_rss ul, 
+	&.widget_pages ul, 
+	&.widget_nav_menu ul, 
+	&.widget_categories ul {
+		padding: 0;
+		list-style-type: none;
+		
+		li {
+			display: block;
+
+			a {
+				text-decoration: none;
+				
+				&:hover,
+				&:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	&.widget_tag_cloud {
+		div {
+			padding: 0;
+			overflow: hidden;
+		}
+
+		a {
+			line-height: 1.62em;
+
+			&:hover,
+			&:focus {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+
+/********************************************* Theme Details */
+.articleInfo {
+    margin-left: 188px;
+}
+/********************************************* Footer */
+#footer {
+	overflow: hidden;
+	zoom: 1;
+	clear: both;
+	padding: 15px 15px;
+	background: #333;
+	color:#FFF;
+	font-size:12px;
+	line-height: 12px;
+	
+
+	#wpstats {
+		display:none;
+		visibility:hidden;
+	}
+}

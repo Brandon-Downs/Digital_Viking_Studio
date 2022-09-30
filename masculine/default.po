@@ -1,0 +1,956 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fifty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 19:19+0200\n"
+"PO-Revision-Date: 2012-09-02 19:20+0200\n"
+"Last-Translator: sd <sdf@azsd.ckom>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:5
+msgid "Oops!"
+msgstr ""
+
+#: 404.php:17
+msgid "The page you are looking for does not exist!"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: archive.php:41
+#: archive.php:45
+#: archive.php:49
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:53
+msgid "All posts by"
+msgstr ""
+
+#: archive.php:57
+msgid "Archives"
+msgstr ""
+
+#: archive.php:82
+#: archive.php:87
+#: index.php:37
+#: index.php:42
+#: search.php:52
+#: search.php:57
+msgid "By "
+msgstr ""
+
+#: archive.php:83
+#: archive.php:88
+#: index.php:38
+#: index.php:43
+#: search.php:53
+#: search.php:58
+msgid "On "
+msgstr ""
+
+#: archive.php:110
+#: index.php:65
+#: search.php:80
+msgid "Older Entries"
+msgstr ""
+
+#: archive.php:117
+#: index.php:72
+#: search.php:87
+msgid "Newer Entries"
+msgstr ""
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:24
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:24
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:35
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:50
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are now closed for this article."
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:15
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:40
+#: functions.php:41
+msgid "Portfolio"
+msgstr ""
+
+#: functions.php:59
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: functions.php:60
+msgid "All Locations"
+msgstr ""
+
+#: functions.php:61
+msgid "Parent Location"
+msgstr ""
+
+#: functions.php:62
+msgid "Parent Location:"
+msgstr ""
+
+#: functions.php:63
+msgid "Edit Category"
+msgstr ""
+
+#: functions.php:64
+msgid "Update Category"
+msgstr ""
+
+#: functions.php:65
+msgid "Add New Category"
+msgstr ""
+
+#: functions.php:66
+msgid "New Category Name"
+msgstr ""
+
+#: functions.php:136
+msgid "No Genres"
+msgstr ""
+
+#: header.php:52
+msgid "Twitter"
+msgstr ""
+
+#: header.php:58
+msgid "Facebook"
+msgstr ""
+
+#: header.php:64
+msgid "Google+"
+msgstr ""
+
+#: header.php:70
+msgid "Dribbble"
+msgstr ""
+
+#: header.php:75
+msgid "Flickr"
+msgstr ""
+
+#: header.php:82
+msgid "YouTube"
+msgstr ""
+
+#: header.php:87
+msgid "Vimeo"
+msgstr ""
+
+#: header.php:93
+msgid "LinkedIn"
+msgstr ""
+
+#: header.php:99
+msgid "Pinterest"
+msgstr ""
+
+#: search.php:28
+#, php-format
+msgid "Search Results for: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: search.php:104
+#, php-format
+msgid "Your search for <em>\"%s\"</em> did not match any entries"
+msgstr ""
+
+#: search.php:106
+msgid "Please check your spelling and try again"
+msgstr ""
+
+#: searchform.php:4
+msgid "To search type and hit enter"
+msgstr ""
+
+#: single-portfolio.php:42
+msgid "Client: "
+msgstr ""
+
+#: single-portfolio.php:49
+msgid "Date: "
+msgstr ""
+
+#: single-portfolio.php:60
+msgid "Launch Project"
+msgstr ""
+
+#: single.php:51
+msgid "Read More"
+msgstr ""
+
+#: template-archives.php:26
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:37
+msgid "Archives by Month"
+msgstr ""
+
+#: template-archives.php:45
+msgid "Archives by Category"
+msgstr ""
+
+#: template-contact.php:71
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: template-contact.php:78
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: template-contact.php:86
+msgid "Name"
+msgstr ""
+
+#: template-contact.php:96
+msgid "Email"
+msgstr ""
+
+#: template-contact.php:119
+msgid "Send Email"
+msgstr ""
+
+#: template-home.php:213
+msgid "Our Clients."
+msgstr ""
+
+#: template-portfolio-vertical.php:67
+msgid "In Development"
+msgstr ""
+
+#: template-portfolio.php:25
+msgid "All"
+msgstr ""
+
+#: admin/admin-interface.php:112
+#: admin/admin-interface.php:131
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/admin-interface.php:133
+msgid "Options Reset"
+msgstr ""
+
+#: admin/admin-interface.php:625
+msgid "Click OK to backup your current saved options."
+msgstr ""
+
+#: admin/admin-interface.php:672
+msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
+msgstr ""
+
+#: admin/admin-interface.php:992
+msgid "Click OK to reset. All settings will be lost!"
+msgstr ""
+
+#: admin/admin-interface.php:1649
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/admin-interface.php:1717
+msgid "Upload"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:18
+msgid "Options"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: admin/medialibrary-uploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/theme-options.php:103
+msgid "General Settings"
+msgstr ""
+
+#: admin/theme-options.php:105
+msgid "Site Logo"
+msgstr ""
+
+#: admin/theme-options.php:106
+msgid "Select the site logo"
+msgstr ""
+
+#: admin/theme-options.php:111
+msgid "Site Favicon"
+msgstr ""
+
+#: admin/theme-options.php:112
+msgid "Select the site favicon"
+msgstr ""
+
+#: admin/theme-options.php:116
+msgid "Site Tagline"
+msgstr ""
+
+#: admin/theme-options.php:117
+msgid "Insert the site tagline"
+msgstr ""
+
+#: admin/theme-options.php:121
+msgid "Footer Text"
+msgstr ""
+
+#: admin/theme-options.php:122
+msgid "Insert the footer text thats on the bottom right of the screen. You can use html tags"
+msgstr ""
+
+#: admin/theme-options.php:126
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/theme-options.php:127
+msgid "Insert your analytics code"
+msgstr ""
+
+#: admin/theme-options.php:137
+msgid "Styling Options"
+msgstr ""
+
+#: admin/theme-options.php:140
+msgid "Skin Stylesheet"
+msgstr ""
+
+#: admin/theme-options.php:141
+msgid "Select your themes alternative color scheme."
+msgstr ""
+
+#: admin/theme-options.php:146
+msgid "Default Background Color"
+msgstr ""
+
+#: admin/theme-options.php:147
+msgid "Select the default background color for pages."
+msgstr ""
+
+#: admin/theme-options.php:157
+msgid "Home Options"
+msgstr ""
+
+#: admin/theme-options.php:160
+msgid "Homepage Slider"
+msgstr ""
+
+#: admin/theme-options.php:162
+msgid "<b>Homepage Slider</b>: Choose a slider below"
+msgstr ""
+
+#: admin/theme-options.php:165
+msgid "Check this box if you want the clasic flex slider on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:174
+msgid "Check this box if you want the portfolio slider on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:183
+msgid "Check this box if you want to display the page content on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:188
+msgid "Homepage Info Columns"
+msgstr ""
+
+#: admin/theme-options.php:190
+msgid "<b>Homepage Info Columns</b>: Customize the columns below"
+msgstr ""
+
+#: admin/theme-options.php:193
+msgid "Check this box if you want info columns on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:202
+msgid "Homepage Recent Projects"
+msgstr ""
+
+#: admin/theme-options.php:204
+msgid "<b>Homepage Recent Projects</b>"
+msgstr ""
+
+#: admin/theme-options.php:207
+msgid "Check this box if you want recent projects on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:212
+msgid "Homepage Recent Posts"
+msgstr ""
+
+#: admin/theme-options.php:214
+msgid "<b>Homepage Recent Posts</b>"
+msgstr ""
+
+#: admin/theme-options.php:217
+msgid "Check this box if you want recent posts on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:221
+msgid "Homepage Clients"
+msgstr ""
+
+#: admin/theme-options.php:223
+msgid "<b>Homepage Clients</b>"
+msgstr ""
+
+#: admin/theme-options.php:225
+msgid "Clients"
+msgstr ""
+
+#: admin/theme-options.php:226
+msgid "Check this box if you want clients on your homepage"
+msgstr ""
+
+#: admin/theme-options.php:230
+msgid "Clients Options"
+msgstr ""
+
+#: admin/theme-options.php:239
+msgid "Portfolio Options"
+msgstr ""
+
+#: admin/theme-options.php:242
+msgid "Portfolio Single Settings"
+msgstr ""
+
+#: admin/theme-options.php:244
+msgid "<b>Portfolio Single Settings</b>"
+msgstr ""
+
+#: admin/theme-options.php:247
+msgid "Check this box if you want to display related projects"
+msgstr ""
+
+#: admin/theme-options.php:258
+msgid "Social Bar"
+msgstr ""
+
+#: admin/theme-options.php:262
+#: admin/theme-options.php:268
+#: admin/theme-options.php:274
+#: admin/theme-options.php:280
+#: admin/theme-options.php:286
+#: admin/theme-options.php:293
+#: admin/theme-options.php:299
+#: admin/theme-options.php:305
+#: admin/theme-options.php:311
+msgid "Insert url"
+msgstr ""
+
+#: admin/theme-options.php:273
+msgid "Google Plus"
+msgstr ""
+
+#: admin/theme-options.php:279
+msgid "Dribble"
+msgstr ""
+
+#: admin/theme-options.php:292
+#: functions/portfoliometa.php:103
+#: functions/portfoliometa.php:188
+msgid "Youtube"
+msgstr ""
+
+#: functions/pagemeta.php:14
+msgid "Custom Title Font Size"
+msgstr ""
+
+#: functions/pagemeta.php:15
+msgid "Insert a custom title font size for this page. Leave <b>blank</b> to use the size set in style.css"
+msgstr ""
+
+#: functions/pagemeta.php:31
+msgid "Custom Background Color"
+msgstr ""
+
+#: functions/pagemeta.php:32
+msgid "Select a custom background color for the uploaded image."
+msgstr ""
+
+#: functions/portfoliometa.php:9
+#: functions/portfoliometa.php:65
+msgid "Project Thumbnail"
+msgstr ""
+
+#: functions/portfoliometa.php:16
+msgid "Project Content"
+msgstr ""
+
+#: functions/portfoliometa.php:23
+msgid "Project Url"
+msgstr ""
+
+#: functions/portfoliometa.php:30
+msgid "Project Client"
+msgstr ""
+
+#: functions/portfoliometa.php:37
+msgid "Project Date"
+msgstr ""
+
+#: functions/portfoliometa.php:66
+msgid "Insert thumbnail url"
+msgstr ""
+
+#: functions/portfoliometa.php:84
+msgid "Content Type:"
+msgstr ""
+
+#: functions/portfoliometa.php:86
+#: functions/portfoliometa.php:169
+msgid "Image"
+msgstr ""
+
+#: functions/portfoliometa.php:96
+msgid "Image Url"
+msgstr ""
+
+#: functions/portfoliometa.php:97
+msgid "insert image url"
+msgstr ""
+
+#: functions/portfoliometa.php:104
+#: functions/portfoliometa.php:110
+msgid "insert embed code"
+msgstr ""
+
+#: functions/portfoliometa.php:116
+msgid "Poster"
+msgstr ""
+
+#: functions/portfoliometa.php:117
+msgid "insert poster url"
+msgstr ""
+
+#: functions/portfoliometa.php:122
+msgid "Width"
+msgstr ""
+
+#: functions/portfoliometa.php:123
+msgid "insert the video width"
+msgstr ""
+
+#: functions/portfoliometa.php:128
+msgid "Height"
+msgstr ""
+
+#: functions/portfoliometa.php:129
+msgid "insert the video height"
+msgstr ""
+
+#: functions/portfoliometa.php:134
+msgid "M4V"
+msgstr ""
+
+#: functions/portfoliometa.php:135
+msgid "insert video source (m4v)"
+msgstr ""
+
+#: functions/portfoliometa.php:140
+msgid "OGV"
+msgstr ""
+
+#: functions/portfoliometa.php:141
+msgid "insert video source (ogv)"
+msgstr ""
+
+#: functions/portfoliometa.php:170
+msgid "edit image url"
+msgstr ""
+
+#: functions/portfoliometa.php:189
+#: functions/portfoliometa.php:209
+msgid "edit embed code"
+msgstr ""
+
+#: functions/portfoliometa.php:232
+#: functions/postmeta.php:59
+msgid "Video"
+msgstr ""
+
+#: functions/portfoliometa.php:234
+msgid "edit poster url"
+msgstr ""
+
+#: functions/portfoliometa.php:236
+msgid "edit video width"
+msgstr ""
+
+#: functions/portfoliometa.php:238
+msgid "edit video height"
+msgstr ""
+
+#: functions/portfoliometa.php:240
+msgid "edit video m4v src"
+msgstr ""
+
+#: functions/portfoliometa.php:242
+msgid "edit video ogv src"
+msgstr ""
+
+#: functions/portfoliometa.php:283
+msgid "Insert project url"
+msgstr ""
+
+#: functions/portfoliometa.php:303
+msgid "Insert client name"
+msgstr ""
+
+#: functions/portfoliometa.php:322
+msgid "Insert completion date"
+msgstr ""
+
+#: functions/postmeta.php:7
+msgid "Quote"
+msgstr ""
+
+#: functions/postmeta.php:12
+msgid "Insert Text"
+msgstr ""
+
+#: functions/postmeta.php:23
+msgid "Link"
+msgstr ""
+
+#: functions/postmeta.php:28
+msgid "Insert URL"
+msgstr ""
+
+#: functions/postmeta.php:39
+msgid "Audio"
+msgstr ""
+
+#: functions/postmeta.php:44
+msgid "MP3 File URL"
+msgstr ""
+
+#: functions/postmeta.php:48
+msgid "OGA/OGG File URL"
+msgstr ""
+
+#: functions/postmeta.php:64
+msgid "Embedded Code"
+msgstr ""
+
+#: functions/utils.php:184
+#: functions/utils.php:188
+#: functions/utils.php:192
+msgid "Archive for "
+msgstr ""
+
+#: functions/utils.php:196
+msgid "All posts by "
+msgstr ""
+
+#: functions/utils.php:200
+#, php-format
+msgid "Results for %s"
+msgstr ""
+
+#: functions/utils.php:206
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: functions/utils.php:208
+#, php-format
+msgid "Sorry, but there aren't any posts tagged %s yet."
+msgstr ""
+
+#: functions/utils.php:210
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: functions/utils.php:213
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: functions/utils.php:215
+msgid "No posts found."
+msgstr ""
+
+#: functions/utils.php:328
+msgid "(Edit)"
+msgstr ""
+
+#: functions/utils.php:334
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions/utils.php:462
+msgid "Website"
+msgstr ""
+
+#: functions/utils.php:480
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions/utils.php:486
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: functions/utils.php:497
+msgid "Add a comment"
+msgstr ""
+
+#: functions/utils.php:498
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: functions/utils.php:499
+msgid "| Cancel"
+msgstr ""
+
+#: functions/utils.php:500
+msgid "Submit Comment"
+msgstr ""
+
+#: functions/widget-portfolio-posts-title.php:20
+msgid "Custom Latest Portfolio Posts - titles"
+msgstr ""
+
+#: functions/widget-portfolio-posts-title.php:20
+#: functions/widget-portfolio-posts.php:20
+msgid "This is a widget that will display custom recent portfolio posts"
+msgstr ""
+
+#: functions/widget-portfolio-posts-title.php:106
+#: functions/widget-portfolio-posts.php:130
+#: functions/widget-tweets.php:136
+msgid "Title:"
+msgstr ""
+
+#: functions/widget-portfolio-posts-title.php:114
+#: functions/widget-portfolio-posts.php:137
+msgid "Number of Posts:"
+msgstr ""
+
+#: functions/widget-portfolio-posts.php:20
+msgid "Custom Latest Portfolio Posts"
+msgstr ""
+
+#: functions/widget-tweets.php:41
+msgid "Latest tweets widget"
+msgstr ""
+
+#: functions/widget-tweets.php:47
+msgid "Custom Latest Tweets"
+msgstr ""
+
+#: functions/widget-tweets.php:142
+msgid "Twitter Username e.g. envato"
+msgstr ""
+
+#: functions/widget-tweets.php:148
+msgid "Number of tweets (max 20)"
+msgstr ""
+
+#: functions/widget-tweets.php:154
+msgid "Follow Text e.g. Follow me on Twitter"
+msgstr ""
+
+#: includes/blog-recent.php:17
+msgid "Recent Posts."
+msgstr ""
+
+#: includes/blog-recent.php:29
+msgid "Read more"
+msgstr ""
+
+#: includes/portfolio-recent.php:12
+msgid "Recent Work."
+msgstr ""
+
+#: includes/portfolio-related-projects.php:12
+msgid "Related Projects"
+msgstr ""
+
+#: includes/post-meta.php:4
+msgid "With "
+msgstr ""
+
+#: includes/post-meta.php:4
+msgid "1 Comment"
+msgstr ""
+
+#: includes/post-meta.php:5
+msgid "In "
+msgstr ""
+
+#: includes/post-meta.php:6
+msgid "Tagged "
+msgstr ""
+
+#: tinymce/config.php:9
+msgid "Button URL"
+msgstr ""
+
+#: tinymce/config.php:10
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: tinymce/config.php:14
+msgid "Button's Style"
+msgstr ""
+
+#: tinymce/config.php:15
+msgid "Select the button's style, ie the buttons colour"
+msgstr ""
+
+#: tinymce/config.php:30
+msgid "Button's Text"
+msgstr ""
+
+#: tinymce/config.php:31
+msgid "Add the button's text"
+msgstr ""
+
+#: tinymce/config.php:35
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: tinymce/config.php:43
+msgid "Alert's Style"
+msgstr ""
+
+#: tinymce/config.php:44
+msgid "Select the slter's style, ie the alert colour"
+msgstr ""
+
+#: tinymce/config.php:55
+msgid "Alert's Text"
+msgstr ""
+
+#: tinymce/config.php:56
+msgid "Add the alert's text"
+msgstr ""
+
+#: tinymce/config.php:61
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: tinymce/config.php:69
+msgid "Toggle Content Title"
+msgstr ""
+
+#: tinymce/config.php:70
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: tinymce/config.php:76
+msgid "Toggle Content"
+msgstr ""
+
+#: tinymce/config.php:77
+msgid "Add the toggle content."
+msgstr ""
+
+#: tinymce/config.php:82
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: tinymce/config.php:90
+msgid "Insert Tabbed Shortcode"
+msgstr ""
+
+#: tinymce/config.php:97
+msgid "Tab Title"
+msgstr ""
+
+#: tinymce/config.php:98
+msgid "Title of the tab"
+msgstr ""
+
+#: tinymce/config.php:103
+msgid "Tab Content"
+msgstr ""
+
+#: tinymce/config.php:104
+msgid "Add the tabs content"
+msgstr ""
+
+#: tinymce/config.php:108
+msgid "Add Tab"
+msgstr ""
+
+#: tinymce/config.php:117
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: tinymce/config.php:125
+msgid "Column Type"
+msgstr ""
+
+#: tinymce/config.php:126
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: tinymce/config.php:155
+msgid "Column Content"
+msgstr ""
+
+#: tinymce/config.php:156
+msgid "Add the column content."
+msgstr ""
+
+#: tinymce/config.php:160
+msgid "Add Column"
+msgstr ""
+
+#~ msgid "If at first you don't succeed, failure may be your style."
+#~ msgstr "muie cu cacat"

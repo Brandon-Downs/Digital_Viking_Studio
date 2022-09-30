@@ -1,0 +1,19 @@
+// import all partial files
+@import 'themeinfo';
+
+@import 'reset';
+
+//Disable 'common' for elementor sites and use Elementor > Site Settings:
+@import 'base';
+
+@import 'parallax';
+
+@import 'common';
+
+@import 'nav';
+
+@import 'sliders';
+
+@import 'forms';
+
+@import 'responsive';

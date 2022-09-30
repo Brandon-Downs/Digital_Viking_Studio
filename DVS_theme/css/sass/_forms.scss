@@ -1,0 +1,240 @@
+/* DVS Form Styles - Generic Styles for Sexy Forms */
+input:not([type=submit]):not([type=file]), 
+select, 
+textarea {
+	padding: 10px 10px 8px !important;
+	font-size: 15px !important;
+	border-radius: 4px !important;
+	border: 1px solid #CCC !important;
+	color: #4d4d4d !important;
+	outline: none !important;
+	background: #fafafa !important;
+	box-sizing: border-box;
+	font-family: $basicFont;
+	&:focus {
+		color: #1A1A1A !important;
+		border: 1px solid #999 !important;
+		background: #fff;
+	}
+}
+
+input[type="checkbox"] {
+	width: auto !important;
+    margin: 3px 8px 0 6px;    
+}
+
+textarea {
+	padding:10px 10px 8px  !important;
+	box-sizing: border-box;
+}
+
+//Gravity Forms
+.gform_fields, 
+.ginput_container ul {
+	list-style: none;
+	left: 0;
+}
+
+.ginput_container input:not([type=radio]) {
+	width: 250px;
+}
+
+.gform_confirmation_wrapper {
+	padding: 30px 50px;
+    border: 3px dotted #47A925;
+}
+
+/* Uncomment to style placeholder text
+::-webkit-input-placeholder {
+   color: #8dc63f;
+}
+
+:-moz-placeholder {
+   color: #8dc63f;  
+}
+
+::-moz-placeholder {
+   color: #8dc63f;  
+}
+
+:-ms-input-placeholder {  
+   color: #8dc63f;  
+}*/
+
+/************************************************************************************* COMMENTS ************/
+
+#comment {
+	width: 100%;
+	height: 150px;
+}
+
+#respond {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	
+	form {
+		background: none !important;
+
+		textarea {
+			width: 98%;
+			margin-right: 0;
+		}
+
+		label {
+			font-size: 1em;
+			font-weight: bold;
+		}
+	}
+}
+
+.comment_container {
+	position: relative;
+}
+
+ol.comment-list {
+	margin: 0 0 15px !important;
+	
+	li {
+		margin: 0;
+		padding: 8px 0 8px 14px;
+		list-style: none;
+		overflow: hidden;
+		position: relative;
+
+		ul {
+			margin: 8px 0 0 !important;
+			
+			li {
+				border: 0;
+				margin: 0 0 0 28px !important;
+				padding: 0 0 8px;
+			}
+		}
+
+		header {
+			margin: 0;
+			line-height: 1.5em;
+		}
+		
+		article nav {
+			float: right;
+		}
+
+		.comment-text {
+			border: 2px solid #ebebeb;
+			overflow: hidden;
+			-moz-border-radius: 8px;
+			-khtml-border-radius: 8px;
+			-webkit-border-radius: 8px;
+			border-radius: 8px;
+			padding: 10px 10px 0;
+
+			p {
+				margin: 0 0 10px !important;
+
+				&.meta {
+					font-weight: normal;
+					background: transparent;
+					padding: 0;
+					font-style: italic;
+					color: #777;
+					font-size: 0.9em;
+					margin: 0 0 10px !important;
+
+					strong {
+						font-weight: bold;
+					}
+				}
+			}
+		}
+
+		&.bypostauthor {
+			.comment-text,
+			img.avatar {
+				border-color: #D4E2EB;
+			}
+		}
+	}
+
+	img.avatar {
+		margin: 8px 10px 0 0;
+		padding: 4px;
+		float:left;
+		border: 1px solid #1a1f23;
+	}
+}
+
+#respond input.text, 
+#respond select, 
+#respond textarea, 
+.comment-form-author input, 
+.comment-form-email input, 
+.comment-form-url input, 
+.widget_search input#s {
+	border: 1px solid #eee;
+	background: #f6f6f6;
+	color: #777;
+	font-size: 1em;
+	line-height: 1em;
+	padding: 0.375em;
+	width: 50%;
+	margin: 0 4px 0 0;
+	outline: 0;
+	display: block;
+}
+
+#respond input.text:focus, 
+#respond select:focus, 
+#respond textarea:focus, 
+.comment-form-author input:focus, 
+.comment-form-email input:focus, 
+.comment-form-url input:focus, 
+.widget_search input#s:focus {
+	border: 1px solid #ccc;
+}
+
+.borderradius {
+	#respond input.text, 
+	#respond select, 
+	#respond textarea, 
+	.comment-form-author input, 
+	.comment-form-email input, 
+	.comment-form-url input, 
+	.widget_search input#s {
+		-moz-border-radius:0.5em;
+		-webkit-border-radius:0.5em;
+		-khtml-border-radius:0.5em;
+		-o-border-radius:0.5em;
+		border-radius:0.5em;
+	}
+}
+
+.button, 
+#submit,
+#wp-submit {
+	padding:8px 20px;
+	background: $default-button-bg;
+	border: none;
+
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-khtml-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	border-radius:0.5em;
+
+	cursor: pointer;
+	// font-weight: bold;
+	text-decoration: none;
+
+	color: $default-button-color;
+	
+	&:hover {
+		background: $default-button-bg-hover;
+		color: $default-button-color-hover;
+	}
+
+	&:active {
+		// position: relative;
+		// top: 1px;
+	}
+}

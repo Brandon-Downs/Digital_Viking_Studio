@@ -1,0 +1,15 @@
+.update-nag, #ewww-image-optimizer-warning-php, 
+#wp-admin-bar-updates, #wp-admin-bar-wp-logo, 
+#wp-pagenavi-update {
+    display:none !important;
+}
+#adminmenu li.wp-menu-separator {
+    background: rgb(15, 15, 15);border-color: transparent;
+}
+#edittag{
+    max-width:90%;
+}
+#dvs_dashboard_widget .dvsDashboardWrap img {
+    width: 100%;
+    height: auto;
+}

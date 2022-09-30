@@ -1,0 +1,63 @@
+[16-Mar-2017 11:44:19 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[23-Mar-2017 08:27:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[01-Apr-2017 08:24:42 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[10-Oct-2017 00:30:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[10-Oct-2017 00:30:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[10-Oct-2017 20:14:52 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[10-Oct-2017 20:14:52 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[11-Oct-2017 04:12:21 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[11-Oct-2017 04:12:21 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[18-Oct-2017 04:20:18 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/philstud/public_html/wp-content/themes/masculine/header.php on line 2
+[18-Oct-2017 04:20:18 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home3/philstud/public_html/wp-content/themes/masculine/header.php on line 2
+[05-Feb-2018 06:20:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[05-Feb-2018 06:20:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[05-Feb-2018 06:20:53 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/page.php on line 1
+[05-Feb-2018 06:20:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/page.php on line 1
+[08-Feb-2018 16:57:55 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[08-Feb-2018 16:57:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[02-Mar-2018 10:33:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[02-Mar-2018 10:33:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[24-Mar-2018 04:13:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[24-Mar-2018 04:13:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/archive.php on line 1
+[26-Mar-2018 01:38:53 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[26-Mar-2018 01:38:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[06-May-2018 19:09:00 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[07-May-2018 04:49:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[07-May-2018 10:41:21 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[07-May-2018 16:00:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[17-Nov-2019 16:21:05 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[18-Nov-2019 01:24:40 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[12-Dec-2019 20:07:22 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[13-Dec-2019 07:09:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[14-Dec-2019 20:24:56 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[15-Dec-2019 07:29:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[11-Jan-2020 22:00:41 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[13-Jan-2020 11:30:07 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[14-Jan-2020 21:37:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[15-Jan-2020 14:16:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[16-Apr-2020 15:32:39 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[17-Apr-2020 00:19:32 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[24-Apr-2020 10:31:49 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[24-Apr-2020 19:33:37 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[17-Oct-2020 19:44:52 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[17-Oct-2020 20:06:13 America/Boise] PHP Fatal error:  Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[17-Dec-2020 12:44:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[17-Feb-2021 19:24:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[17-Feb-2021 19:28:52 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/philstud/public_html/wp-content/themes/masculine/index.php on line 1
+[22-May-2021 01:53:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
+[22-May-2021 05:37:56 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/philstud/public_html/wp-content/themes/masculine/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/philstud/public_html/wp-content/themes/masculine/404.php on line 1
